@@ -1,0 +1,28 @@
+body {
+    background-color:white;
+    color: #777777;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;  
+}
+.banner {
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+
+}
+nav {
+
+}
+
+.fit-picture {
+    width: 24%;
+    padding: 20px;
+    float:left;
+}
