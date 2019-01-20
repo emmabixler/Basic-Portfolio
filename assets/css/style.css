@@ -3,27 +3,42 @@ body {
     color: #777777;
     margin: 0 auto;
     font-size: 15px;
+    background-image: url(../images/morocco.png);
+
 }
 .flex {
     display: flex;  
+    width: 960px;
+    margin: 0 auto;
 }
 .banner {
     justify-content: space-between;
     flex-direction: row;
+    background-color: white;
 }
 
 h1 {
     background-color: #4aaaa5;
     color: white;
     font-family: "Georgia", "Times", "Times New Roman", serif;
-  
+    margin: 0px;
+    padding: 20px;
+
+
 }
+.moveit{
+    background: white;
+    border-bottom: 4px solid pink;
+
+}
+
 #aboutme{
     font-size: 50px;
 }
 nav {
     color: purple;
     margin: 50px;
+    font-size: 20px;
 
 }
 
@@ -36,12 +51,23 @@ nav {
 p {
     color: #4aaaa5;
     text-align: center;
-    line-height: 3.5;    
+    line-height: 3.5; 
+    background-color: white;  
 }
 .part2
 {
-    background-color:beige;
     font-size: 20px;
     text-align: left; 
+    line-height: 60px;
+    max-width: 960px;;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px 0px 20px;
+    background-color: #666666;
+    color: white;
+    border-top:4px solid pink;
 }
 
