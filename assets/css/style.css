@@ -54,13 +54,21 @@ p {
     line-height: 3.5; 
     background-color: white;  
 }
-.part2
-{
+.part2 {
     font-size: 20px;
     text-align: left; 
     line-height: 60px;
     max-width: 960px;;
     margin: 0 auto;
+}
+.pics {
+    display: flex;
+    flex-flow: column wrap;
+
+}
+.stock {
+    width: 150px;
+    height: auto;
 }
 
 footer {
@@ -71,3 +79,15 @@ footer {
     border-top:4px solid pink;
 }
 
+.container77 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
