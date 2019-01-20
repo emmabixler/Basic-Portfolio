@@ -2,6 +2,7 @@ body {
     background-color:white;
     color: #777777;
     margin: 0 auto;
+    font-size: 15px;
 }
 .flex {
     display: flex;  
@@ -15,9 +16,14 @@ h1 {
     background-color: #4aaaa5;
     color: white;
     font-family: "Georgia", "Times", "Times New Roman", serif;
-
+  
+}
+#aboutme{
+    font-size: 50px;
 }
 nav {
+    color: purple;
+    margin: 50px;
 
 }
 
@@ -26,3 +32,16 @@ nav {
     padding: 20px;
     float:left;
 }
+
+p {
+    color: #4aaaa5;
+    text-align: center;
+    line-height: 3.5;    
+}
+.part2
+{
+    background-color:beige;
+    font-size: 20px;
+    text-align: left; 
+}
+
